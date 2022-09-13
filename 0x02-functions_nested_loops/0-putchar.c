@@ -1,5 +1,5 @@
 #include	<unistd.h>
-#include	"_putchar.c"
+#include	"_putchar.h"
 
 /**
  * 	main	-	Check	description
