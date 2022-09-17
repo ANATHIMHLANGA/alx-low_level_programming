@@ -1,7 +1,7 @@
 #include	<stdio.h>
 #include	<ctype.h>
 /**
- * main	-	Program to print alphabett letters in all cases followed by a new line
+ * main	-	Program to print alphabett letters in all 
  *
  * Return:	return 0
  */
