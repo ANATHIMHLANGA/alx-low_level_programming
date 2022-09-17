@@ -1,7 +1,7 @@
 #include	<stdio.h>
 #include	<ctype.h>
 /**
- * main	-	Program to print alphabett letters in all 
+ * main	-	Program to print alphabett letters in all
  *
  * Return:	return 0
  */
