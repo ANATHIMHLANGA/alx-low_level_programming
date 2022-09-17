@@ -5,7 +5,6 @@
  * main	-	Entry point of programs
  *
  * Return:	return 0
- *
  */
 int	main(void)
 {
@@ -26,5 +25,5 @@ int	main(void)
 		printf("%d is zero\n", n);
 
 	}
-	return (0)
+	return (0);
 }
