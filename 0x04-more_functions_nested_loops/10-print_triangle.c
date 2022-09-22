@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_triange - function print
- * @size -size
+ * print_triangle - function print
+ * @size: size of triangl=e
  *
  * Return: nothinh fail
  */
