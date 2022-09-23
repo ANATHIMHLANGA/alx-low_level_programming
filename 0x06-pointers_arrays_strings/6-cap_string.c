@@ -1,32 +1,19 @@
-#include "main.h"
+#include <stdio.h>
+
+char *cap_string(char *);
+
 /**
-*cap_string - function that capitalize first character of a word
-*@str: string to capitalize
-*Return:returns the capitalized string
-*/
-char *cap_string(char *str)
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-	int index = 0;
+	char s[] = "hello world! expect the best. Prepare for the worst. Capitalize on what comes.\nhello world! hello-world 0123456hello world\thello world.hello world\n";
+	char *p;
 
-	while (str[++index])
-	{
-		while (!(str[index] >= 'a' && str[index] <= 'z'))
-			index++;
-
-		if (str[index - 1] == ' ' ||
-				str[index - 1] == '\t' ||
-				str[index - 1] == '\n' ||
-				str[index - 1] == ',' ||
-				str[index - 1] == ';' ||
-				str[index - 1] == '.' ||
-				str[index - 1] == '!' ||
-				str[index - 1] == '?' ||
-				str[index - 1] == '"' ||
-				str[index - 1] == '(' ||
-				str[index - 1] == ')' ||
-				str[index - 1] == '{' ||
-				str[index - 1] == '}')
-			str[index] -= 32;
-	}
-	return (str);
+	p = cap_string(s);
+	printf("%s", p);
+	printf("%s", s);
+	return (0);
 }
