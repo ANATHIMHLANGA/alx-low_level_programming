@@ -14,5 +14,6 @@ void reverse_array(int *a, int n);
 char *_strcat(char *dest, char *src);
 char *string_toupper(char *);
 char *cap_string(char *);
+void print_buffer(char *b, int size);
 
 #endif /* MAIN_H */
