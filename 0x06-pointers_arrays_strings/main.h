@@ -16,5 +16,6 @@ char *string_toupper(char *);
 char *cap_string(char *);
 void print_buffer(char *b, int size);
 void print_number(int n);
+char *leet(char *);
 
 #endif /* MAIN_H */
