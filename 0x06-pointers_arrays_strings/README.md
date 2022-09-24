@@ -1,4 +1,5 @@
-0x06. C - More pointers, arrays and strings
+Alx_system
+				0x06. C - More pointers, arrays and strings
 
 0. strcat : a function that concatenates two strings.
 1. strncat : a function that concatenates two strings.
