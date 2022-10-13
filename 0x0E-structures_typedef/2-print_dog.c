@@ -1,16 +1,16 @@
 #include "dog.h"
+
 /**
  * print_dog - prints a struct dog
  * @d: dog identification
  *
  */
-
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
 		return;
-	
-	if((*d).name == NULL)
+
+	if ((*d).name == NULL)
 		printf("nil\n");
 	else
 		printf("Name: %s\n", d->name);
